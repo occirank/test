@@ -16,7 +16,7 @@ import type { AmqpCredential } from './types';
 
 export class AmqpTrigger implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'AMQP Trigger Test',
+		displayName: 'AMQPT Trigger',
 		name: 'amqpTrigger',
 		icon: 'file:amqp.svg',
 		group: ['trigger'],
